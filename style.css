@@ -1,0 +1,48 @@
+body{
+    background-image: radial-gradient(circle,hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: auto;
+}
+
+
+.game-container{
+    margin: 20px auto;
+    width: 50%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid hsl(217, 16%, 45%);
+    padding: 10px;
+}
+
+.score-container{
+    background-color: white;
+    padding: 0 15px;
+    color: hsl(229, 25%, 31%);
+    text-align: center;
+    width: 115px;
+    text-transform: uppercase;
+}
+
+.score-number{
+    font-size: 54px;
+    margin: 0;
+}
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+  }
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
