@@ -8,6 +8,7 @@ body{
 .game-container{
     margin: 20px auto;
     width: 50%;
+    
 }
 
 .header{
@@ -32,8 +33,48 @@ body{
     margin: 0;
 }
 
+.choice-container{
+    background: url('./images/bg-triangle.svg') no-repeat center;
+    position: relative;
+    padding: 250px;
+   
+}
+
+.choice-btn{
+    background-color: white;
+    margin: 10px 0;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.paper{
+    border: 16px solid hsl(230, 89%, 62%);
+    position: absolute;
+    top: 18px;
+    left: 550px;
+    
+}
+
+.scissors{
+    border: 16px solid hsl(39, 89%, 49%);
+    position: absolute;
+    left: 398px;
+    bottom: 40px;
+    
+}
+
+.rock{
+    border: 16px solid hsl(349, 71%, 52%);
+    position: absolute;
+    top: 18px;
+    
+}
 
 
 
