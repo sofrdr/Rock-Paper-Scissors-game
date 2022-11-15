@@ -54,7 +54,7 @@ body{
 }
 
 
-#paper{
+.paper{
     border: 16px solid hsl(230, 89%, 62%);
     position: absolute;
     top: 18px;
@@ -62,7 +62,7 @@ body{
     
 }
 
-#scissors{
+.scissors{
     border: 16px solid hsl(39, 89%, 49%);
     position: absolute;
     left: 398px;
@@ -70,18 +70,36 @@ body{
     
 }
 
-#rock{
+.rock{
     border: 16px solid hsl(349, 71%, 52%);
     position: absolute;
     top: 18px;
     
 }
 
-
-.hidden{
-    visibility: hidden;
-
+.result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+.user-choice-container, .computer-choice-container, .game-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 90px;
+}
+
+.user-choice, .computer-choice{
+    position: static;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
